@@ -1,0 +1,34 @@
+.main-cont-register {
+    text-align: center;
+}
+
+.card-cont-register {
+    transform: translateY(20%);
+}
+
+.card-cont-register .container {
+    max-width: 30vw;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding-top: 10vh;
+}
+
+.card-cont-register .container .form {
+    border: none;
+    margin-top: 4vh;
+    border-bottom: 2px solid blue;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+
+.card-cont-register .container .form:focus {
+    outline: none;
+}
+
+.card-cont-register .container .form2 {
+    margin-top: 1vh;
+}

@@ -1,0 +1,28 @@
+.main-cont-login {
+    text-align: center;
+}
+
+.card-cont-login {
+    transform: translateY(20%);
+}
+
+.card-cont-login .container {
+    max-width: 30vw;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid grey; */
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding-top: 10vh;
+}
+
+.card-cont-login .container .form-control {
+    border: none;
+    margin-top: 3vh;
+    border-bottom: 3px solid blue;
+}
+
+.card-cont-login .container .button-cont {
+    margin-top: 2vw;
+}
