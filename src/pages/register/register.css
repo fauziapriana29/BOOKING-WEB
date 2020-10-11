@@ -13,16 +13,22 @@
     flex-direction: column;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
-    padding-top: 10vh;
+    padding-top: 7vh;
 }
 
 .card-cont-register .container .form {
-    border: none;
+    border: 1px solid grey ;
     margin-top: 4vh;
-    border-bottom: 2px solid blue;
+    border-radius: 2px;
     display: block;
     width: 100%;
+    height: 7vh;
     font-size: 20px;
+    text-indent: 1vw;
+}
+
+.card-cont-register .container .form::placeholder {
+    text-indent: 1vw;
 }
 
 .card-cont-register .container .form:focus {
@@ -30,5 +36,15 @@
 }
 
 .card-cont-register .container .form2 {
-    margin-top: 1vh;
+    margin-top: 0vh;
+}
+
+.button-cont .back:hover {
+    text-decoration: none;
+}
+
+.required-message {
+    background-color: rgb(240, 51, 51);
+    font-weight: bold;
+    display: block;
 }

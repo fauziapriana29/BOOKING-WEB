@@ -20,7 +20,7 @@ const Login = () => {
                         <button className="btn btn-success btn-block">LOGIN</button>
                         <br/>
                         <Link className="back" to="/">back</Link> &nbsp; &nbsp;
-                        <Link className="toRegister" to="/register">Create Account</Link>
+                        <Link className="toRegister fas fa-user-plus fa-2x" to="/register"></Link>
                     </div>
                 </div>
             </div>

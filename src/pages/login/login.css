@@ -18,11 +18,19 @@
 }
 
 .card-cont-login .container .form-control {
-    border: none;
-    margin-top: 3vh;
-    border-bottom: 3px solid blue;
+    border: 1px solid grey;
+    border-radius: 2px;
+    height: 7vh;
+}
+
+.card-cont-login .container .form-control:nth-child(1) {
+    margin-top: 4vh;
 }
 
 .card-cont-login .container .button-cont {
     margin-top: 2vw;
+}
+
+.toRegister:hover {
+    text-decoration: none;
 }

@@ -1,11 +1,13 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import './ladPages.css'
+
+import Navbar from '../../components/navbar/navbar.jsx'
 
 const LadPages = () => {
     return (
         <div>
+            <Navbar/>
             <h1>Landing Pages</h1>
-            <Link className="btn btn-outline-primary" to="/login">Login</Link>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.title-navbar {
+    display: inline-block;  
+    font-size: 2.5vw;
+    color: white;
+}
+
+.navbar {
+    background-color: blue;
+}
+
+.navbar .nav-link {
+    color: white;
+    position: absolute;
+    right: 5vw;
+    top: 1vh;
+}
